@@ -331,3 +331,39 @@ h1{
     }
 
 }
+
+@media(max-width:700px){
+
+    #game-board{
+
+        grid-template-columns: repeat(4, 1fr);
+
+        width:100%;
+
+        gap:5px;
+
+    }
+
+
+    .card{
+
+        width:100%;
+
+        aspect-ratio: 3 / 4;
+
+        height:auto;
+
+    }
+
+
+    .container{
+
+        width:100%;
+
+        max-width:none;
+
+        padding:15px;
+
+    }
+
+}
