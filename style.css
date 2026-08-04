@@ -384,3 +384,15 @@ body{
     }
 
 }
+
+@media(max-width:700px){
+
+    #game-board{
+
+        position: relative;
+
+        left: -20px;
+
+    }
+
+}
