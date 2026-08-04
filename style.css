@@ -374,3 +374,13 @@ body{
     overflow-x:hidden;
 
 }
+
+@media(max-width:700px){
+
+    #game-board{
+
+        transform: translateX(-10px);
+
+    }
+
+}
