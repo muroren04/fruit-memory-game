@@ -406,3 +406,22 @@ body{
     }
 
 }
+
+@media(max-width:700px){
+
+    #game-board{
+
+        gap:4px;
+
+    }
+
+
+    .card{
+
+        width:65px;
+
+        height:95px;
+
+    }
+
+}
