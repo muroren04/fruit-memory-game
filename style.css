@@ -252,3 +252,82 @@ h1{
     z-index: 999;
 
 }
+
+@media(max-width:700px){
+
+    .container{
+
+        width:95%;
+
+        padding:15px;
+
+    }
+
+
+    #game-board{
+
+        grid-template-columns:repeat(4,1fr);
+
+        gap:6px;
+
+    }
+
+
+    .card{
+
+        width:auto;
+
+        height:auto;
+
+        aspect-ratio: 3 / 4;
+
+    }
+
+
+    .card img{
+
+        width:80%;
+
+        height:80%;
+
+    }
+
+
+    h1{
+
+        font-size:24px;
+
+    }
+
+
+    .info{
+
+        font-size:14px;
+
+    }
+
+
+    #restart{
+
+        width:80%;
+
+    }
+
+}
+
+@media(max-width:400px){
+
+    #game-board{
+
+        gap:4px;
+
+    }
+
+
+    .container{
+
+        padding:10px;
+
+    }
+
+}
