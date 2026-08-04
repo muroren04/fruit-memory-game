@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神経衰弱</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+    <!-- スタート画面 -->
+    <div id="start-screen">
+
+        <h1>🍎 フルーツ神経衰弱 🍓</h1>
+
+        <p>
+            8種類のフルーツを<br>
+            見つけよう！
+        </p>
+
+        <button id="start-button">
+            START
+        </button>
+
+    </div>
+
+
+    <!-- ゲーム画面 -->
+    <div id="game-screen" style="display:none;">
+
+        <h1>🍎 神経衰弱 🍓</h1>
+
+
+        <div class="info">
+
+            <div>
+                ⏱ 時間：
+                <span id="timer">0.0</span> 秒
+            </div>
+
+            <div>
+                👆 手数：
+                <span id="moves">0</span>
+            </div>
+
+        </div>
+
+
+        <div id="game-board"></div>
+
+
+        <button id="restart">
+            リスタート
+        </button>
+
+        <div id="clear-screen">
+
+    <h2>🎉 GAME CLEAR 🎉</h2>
+
+    <p>
+        時間：
+        <span id="clear-time">0.0</span> 秒
+    </p>
+
+    <p>
+        手数：
+        <span id="clear-moves"></span>
+    </p>
+
+    <div id="best-score">
+
+    🏆 ベストスコア
+
+    <p>
+        時間：
+        <span id="best-time">--</span> 秒
+    </p>
+
+    <p>
+        手数：
+        <span id="best-moves">--</span>
+    </p>
+
+</div>
+
+    <button id="clear-restart">
+        もう一度遊ぶ
+    </button>
+
+</div>
+
+
+    </div>
+
+</div>
+
+<canvas id="confetti"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
